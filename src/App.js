@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Welcome from "./Welcome";
+import Welcomeclass from "./WelcomeClass";
+import Button from "./Button";
+import Counter from "./Counter";
+import ConditionalOne from "./ContitionalOne";
+import NameList from "./NameList";
+import FormInp from "./FormInp";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <FormInp />
+      {/* <NameList /> */}
+      {/* <Welcome name="palani" fullName="palani pavan" /> here we are passing props which can be accessed in welcome.js */}
+      {/* <Welcomeclass />  */}
+      {/* <Button /> */}
+      {/* <Counter /> */}
+      {/* <ConditionalOne /> */}
     </div>
   );
 }

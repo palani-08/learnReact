@@ -1,0 +1,27 @@
+.main {
+  border-color: rgb(155, 116, 155);
+  height: 250px;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: red;
+   margin-left: 750px; 
+  background-color: aqua;
+  border-width: 1rem;
+  border-radius: 10px;
+  margin-top: 200px;
+}
+.lab {
+  margin-left: 5px;
+}
+.inp {
+  padding-left: 10px;
+  font-size: 17px;
+  margin-left: 8px;
+}
+.btn {
+  margin-left: 100px;
+  margin-top: 20px;
+}
